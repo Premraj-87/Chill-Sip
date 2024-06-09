@@ -1,0 +1,903 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  width: 100%;
+
+  min-height: 100vh;
+}
+#navbar {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  min-height: 10vh;
+}
+
+#navleft {
+  display: flex;
+  width: 15vw;
+  gap: 15px;
+  position: relative;
+  right: 15vw;
+  background-color: white;
+  justify-content: space-evenly;
+}
+#navname {
+  font-size: 25px;
+  font-weight: 600;
+
+  padding: 10px;
+  position: absolute;
+}
+
+#navcart img {
+  position: relative;
+  left: 18vw;
+  width: 30px;
+  height: 30px;
+}
+/* navbar end */
+/* section1 */
+#section1 {
+  display: flex;
+  width: 100%;
+  background-color: rgb(39, 37, 37);
+  height: 600px;
+}
+#sec12 {
+  width: 50%;
+  background-image: url(/assests/coco.jpg);
+  height: inherit;
+  background-size: cover;
+  background-position: center;
+
+  flex-wrap: wrap;
+}
+#sec13 {
+  width: 30%;
+  height: inherit;
+  background-image: url(/assests/can2-1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: rgb(0, 255, 55);
+}
+#sec14 {
+  width: 20%;
+  color: white;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+
+  background-color: rgb(220, 84, 84);
+}
+#sec14 h2 {
+  font-size: 25px;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+#sec14 h4 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 12px;
+}
+#sec14 h5 {
+  display: flex;
+  background: rgb(255, 255, 255);
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  color: black;
+  width: 50%;
+  border-style: groove;
+  border-radius: 5px;
+}
+
+/* section2 */
+#section2 {
+  display: flex;
+  width: 100%;
+  height: 25vh;
+  background-color: rgb(255, 255, 255);
+}
+#sec21 {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-around;
+  width: 50%;
+  height: inherit;
+  background-color: rgb(255, 255, 255);
+}
+#sec21 h2 {
+  font-size: 25px;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+#sec21 h4 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#sec21 h5 {
+  display: flex;
+  background: rgb(255, 255, 255);
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 50%;
+  border-style: groove;
+  border-radius: 5px;
+}
+#sec22 {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  height: inherit;
+  background-color: rgb(255, 255, 255);
+}
+#sec23 {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  background-image: url(/assests/can2-1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+#sec24 {
+  width: 140px;
+  height: 140px;
+  border-radius: 100px;
+  background-image: url(/assests/freemockk.jpg);
+  background-position: center;
+  background-size: cover;
+}
+/* section3 */
+#section3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  height: 300vh;
+  padding: 25px;
+  background-color: rgb(255, 255, 255);
+}
+#section3 h3 {
+  background: rgb(255, 255, 255);
+  width: 200px;
+  height: 60px;
+  position: relative;
+  font-size: 30px;
+  right: 30vw;
+}
+#section3 h5 {
+  position: relative;
+  right: 30vw;
+  background-color: rgb(255, 255, 255);
+}
+#sect1 {
+  width: 85%;
+  border-radius: 2%;
+  background-image: url(/assests/freemock.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: blueviolet;
+  height: 100vh;
+}
+#sect2 {
+  width: 85%;
+  border-radius: 2%;
+  background-image: url(/assests/martin.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: blueviolet;
+  height: 100vh;
+}
+#sect3 {
+  display: flex;
+  background-color: rgb(215, 215, 215);
+  border-radius: 5px;
+  height: 80vh;
+  width: 85%;
+}
+#sect33 {
+  height: 80vh;
+  width: 50%;
+  border-radius: 5px;
+  background-image: url(/assests/boxee.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#sect34 {
+  padding: 30px;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 50%;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+#sect34 h2 {
+  font-size: 35px;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+#sect34 h4 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#sect34 h5 {
+  display: flex;
+  background: rgb(255, 255, 255);
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 170px;
+  border-style: groove;
+  border-radius: 5px;
+}
+/* sect4 */
+#sect4 {
+  border-radius: 5px;
+  background-image: url(/assests/itsgreen.jpg);
+  height: 120vh;
+  background-size: cover;
+  background-position: center;
+  width: 85%;
+}
+#sec41 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-evenly;
+  gap: 20px;
+  top: 80%;
+  position: relative;
+}
+
+#sec41 #sec42 {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 290px;
+  font-family: "Poppins";
+  font-weight: 600;
+  height: 45px;
+}
+#sec422 {
+  display: flex;
+  background-color: rgb(68, 106, 43);
+  border-radius: 10px;
+  color: white;
+  font-family: "Poppins";
+  align-items: center;
+  justify-content: center;
+  width: 290px;
+  height: 45px;
+}
+/* footer */
+#footer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(180, 97, 97);
+  min-height: 15vh;
+}
+#footerleft {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  height: 10vh;
+  position: relative;
+  right: 15vw;
+
+  justify-content: space-evenly;
+}
+#footerleft h5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: 30px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+#footerright {
+  display: flex;
+  position: absolute;
+  left: 10vw;
+  flex-direction: column;
+
+  align-items: end;
+  position: relative;
+}
+#footername {
+  font-size: 15px;
+
+  font-weight: 600;
+}
+#footerlogo {
+  position: relative;
+  top: 10px;
+}
+#footer img {
+  width: 30px;
+  height: 30px;
+}
+
+/* media for mobile */
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+  #navbar {
+    width: 100%;
+    min-width: inherit;
+    background-color: red;
+  }
+  #navcart img {
+    display: none;
+  }
+  #navleft {
+    display: none;
+  }
+  #section1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50vh;
+  }
+  #sec12 {
+    width: 50%;
+    height: 50vh;
+  }
+  #sec13 {
+    width: 50%;
+    height: 50vh;
+  }
+  #sec14 {
+    width: 100%;
+    height: 30vh;
+  }
+  /* section2 */
+  #section2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50vh;
+  }
+  #sec21 {
+    width: 100%;
+    height: 30vh;
+  }
+  #sec22 {
+    width: 100%;
+    height: 30vh;
+  }
+  #section3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 300vh;
+    padding: 25px;
+    top: 10vh;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+  }
+  #section3 h3 {
+    background: rgb(255, 255, 255);
+    width: 200px;
+    height: 60px;
+    position: relative;
+    font-size: 30px;
+    right: -10vw;
+  }
+  #section3 h5 {
+    position: relative;
+    right: -10vw;
+    background-color: rgb(255, 255, 255);
+  }
+  #sect3 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(212, 212, 212);
+    border-radius: 5px;
+  }
+  #sect33 {
+    height: 50vh;
+    width: 100%;
+    border-radius: 5px;
+    background-image: url(/assests/boxee.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  #sect34 {
+    display: block;
+    padding: 20px;
+    height: 30vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+  }
+  #sect34 h2 {
+    position: relative;
+    bottom: 20px;
+    font-size: 15px;
+    font-family: "Poppins";
+    font-weight: 600;
+  }
+  #sect34 h4 {
+    width: 100%;
+
+    font-size: 10px;
+  }
+  #sect34 h5 {
+    display: flex;
+    background: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 40%;
+    border-style: groove;
+    border-radius: 5px;
+    font-size: 10px;
+    position: relative;
+
+    right: inherit;
+  }
+
+  #sect4 {
+    border-radius: 5px;
+    background-image: url(/assests/itsgreen.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    border-radius: 5px;
+  }
+  #sec41 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-evenly;
+    gap: 20px;
+    top: 90%;
+    position: relative;
+  }
+  #sec41 #sec42 {
+    display: flex;
+    background-color: rgb(247, 247, 247);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: first start;
+    width: 150px;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: small;
+    box-shadow: 0 0 2px 0 rgb(0, 0, 0);
+    padding-left: 1px;
+    height: 30px;
+  }
+  #sec422 {
+    display: flex;
+    background-color: rgb(68, 106, 43);
+    border-radius: 10px;
+    color: white;
+    font-family: "Poppins";
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 2px 0 rgb(0, 0, 0);
+    width: 150px;
+    height: 30px;
+  }
+  /* footer */
+  #footer {
+    width: 100%;
+    height: 20vh;
+    bottom: -30vh;
+    position: relative;
+  }
+  #footerleft {
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    position: relative;
+    right: 5vw;
+  }
+  #footerleft h5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 20px;
+    background-color: white;
+    border-radius: 20px;
+  }
+  #footerright {
+    display: flex;
+    position: absolute;
+    left: 10vw;
+    flex-direction: column;
+    align-items: end;
+    position: relative;
+  }
+  #footername {
+    font-size: 10px;
+    font-weight: 600;
+  }
+  #footerlogo {
+    position: relative;
+    top: 10px;
+  }
+  #footer img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+/* tabet */
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  #navbar {
+    width: 100%;
+    min-width: inherit;
+
+    background-color: rgb(255, 255, 255);
+  }
+  #navleft {
+    display: flex;
+    width: 15vw;
+    gap: 15px;
+    position: relative;
+    right: 15vw;
+    background-color: white;
+    justify-content: space-evenly;
+  }
+
+  #section1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50vh;
+  }
+  #sec12 {
+    width: 50%;
+    height: 50vh;
+  }
+  #sec13 {
+    width: 50%;
+    height: 50vh;
+  }
+  #sec14 {
+    width: 100%;
+    height: 30vh;
+  }
+  /* section2 */
+  #section2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50vh;
+  }
+  #sec21 {
+    width: 100%;
+    height: 30vh;
+  }
+  #sec22 {
+    width: 100%;
+    height: 30vh;
+  }
+  #section3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 300vh;
+    padding: 25px;
+    top: 10vh;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+  }
+  #section3 h3 {
+    background: rgb(255, 255, 255);
+    width: 200px;
+    height: 60px;
+    position: relative;
+    font-size: 30px;
+    right: -5vw;
+  }
+  #section3 h5 {
+    position: relative;
+    right: -5vw;
+    background-color: rgb(255, 255, 255);
+  }
+  #sect3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(212, 212, 212);
+    border-radius: 5px;
+    height: 80vh;
+  }
+  #sect33 {
+    height: 70vh;
+    width: 100%;
+    border-radius: 5px;
+    background-image: url(/assests/boxee.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  #sect34 {
+    /* display: block; */
+    padding: 10px;
+    height: 45vh;
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  #sect34 h2 {
+    position: relative;
+
+    font-size: 20px;
+    font-family: "Poppins";
+    font-weight: 600;
+  }
+  #sect34 h4 {
+    width: 100%;
+    background-color: 80%;
+    font-size: 10px;
+  }
+  #sect34 h5 {
+    display: flex;
+    background: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 40%;
+    border-style: groove;
+    border-radius: 5px;
+    font-size: 10px;
+    position: relative;
+
+    right: inherit;
+  }
+  #sect4 {
+    border-radius: 5px;
+    background-image: url(/assests/itsgreen.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    border-radius: 5px;
+  }
+  #sec41 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-evenly;
+    gap: 20px;
+    top: 90%;
+    position: relative;
+  }
+  #sec41 #sec42 {
+    display: flex;
+    background-color: rgb(247, 247, 247);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: first start;
+    width: 150px;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: small;
+    box-shadow: 0 0 2px 0 rgb(0, 0, 0);
+    padding-left: 1px;
+    height: 30px;
+  }
+  #sec422 {
+    display: flex;
+    background-color: rgb(68, 106, 43);
+    border-radius: 10px;
+    color: white;
+    font-family: "Poppins";
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 2px 0 rgb(0, 0, 0);
+    width: 150px;
+    height: 30px;
+  }
+  /* footer */
+  #footer {
+    width: 100%;
+    height: 20vh;
+    bottom: -20vh;
+    position: relative;
+  }
+  #footerleft {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    position: relative;
+    right: 10vw;
+  }
+  #footerleft h5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 30px;
+    background-color: white;
+    border-radius: 10px;
+    border-style: groove;
+  }
+}
+
+/* windows */
+@media only screen and (min-width: 769px) and (max-width: 1250px) {
+  #navbar {
+    width: 100%;
+    min-width: inherit;
+  }
+  #sect34 {
+    display: flex;
+    padding: 20px;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 40%;
+    align-items: flex-start;
+  }
+  #sect34 h2 {
+    font-size: 45px;
+    font-family: "Poppins";
+    font-weight: 600;
+  }
+  #sect34 h4 {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  #sect34 h5 {
+    display: flex;
+    background: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 170px;
+    border-style: groove;
+    border-radius: 5px;
+    position: relative;
+    right: -12vw;
+  }
+  #sect4 {
+    border-radius: 5px;
+    background-image: url(/assests/itsgreen.jpg);
+    height: 120vh;
+    background-size: cover;
+    background-position: center;
+    width: 85%;
+  }
+  #sec41 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-evenly;
+    gap: 20px;
+    top: 90%;
+    position: relative;
+  }
+
+  #sec41 #sec42 {
+    display: flex;
+    background-color: rgb(247, 247, 247);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    font-family: "Poppins";
+    font-weight: 600;
+    height: 45px;
+  }
+  #sec422 {
+    display: flex;
+    background-color: rgb(68, 106, 43);
+    border-radius: 10px;
+    color: white;
+    font-family: "Poppins";
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 45px;
+  }
+  /* footer */
+  #footer {
+    width: 100%;
+    height: 20vh;
+    bottom: -15vh;
+    position: relative;
+  }
+  #footerleft {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+  }
+  #footerleft h5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 30px;
+    background-color: white;
+    border-radius: 10px;
+    border-style: groove;
+  }
+  #footerright {
+    display: flex;
+    position: absolute;
+    left: 14vw;
+    flex-direction: column;
+    align-items: end;
+    position: relative;
+  }
+  #footername {
+    font-size: 15px;
+
+    font-weight: 600;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+  }
+  #footername span {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  #footerlogo {
+    position: relative;
+    top: 10px;
+  }
+  #footer img {
+    width: 30px;
+    height: 30px;
+  }
+}
